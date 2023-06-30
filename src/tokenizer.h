@@ -1,6 +1,8 @@
 #ifndef _TOKENIZER_
 #define _TOKENIZER_
 
+// Function to compare two strings
+int str_cmp(char *s, char *t);
 
 /* Return true (non-zero) if c is a whitespace characer
    ('\t' or ' ').  
